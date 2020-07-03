@@ -24,4 +24,4 @@ int main ()
 2. Compile the program with this command - `cc hello.c`.
 3. An executable file called `a.out` will be created once the compilation is done successfully.
 4. Run the program by typing `./a.out`.
-5. "Hello, World" will be the output.
+5. "Hello, World!" will be the output.
