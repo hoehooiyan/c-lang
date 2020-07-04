@@ -21,6 +21,8 @@ int main()
     printf("%3.0f\t%5.1f\n", celsius, fahr);
     celsius = celsius + step;
   }
+
+  return 0;
 }
 
 // Formula for the conversion from Celsius to Fahrenheit
