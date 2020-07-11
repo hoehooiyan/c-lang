@@ -5,10 +5,16 @@
 
 int main()
 {
-  int c;
+  int c, lastc;
 
-  while((c = getchar()) != EOF)
-    putchar(c);
+  while((c = getchar()) != EOF) {
+    if (c != ' ')
+      putchar(c);
+    if (c == ' ')
+      if (lastc != ' ')
+        putchar(c);
+    lastc = c;
+  }
     
   return 0;
 }
